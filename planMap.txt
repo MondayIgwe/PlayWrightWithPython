@@ -1,0 +1,23 @@
+python -m venv venv
+then activate the venv -> then activate the venv - type on the terminal .\venv\Scripts\activate
+python --version
+Create a project
+python -m venv pass the name of the folder where you want to keep the virtual environment.
+then activate the venv - type on the terminal .\venv\Scripts\activate
+Then install playwright using -> pip install playwright
+Update pip - python.exe -m pip install--upgrade pip
+===============================================================================
+type pip to see the commands
+pip install playwright
+playwright --version
+playwright install
+download all the browser drivers needed for playwright -> type playwright install
+pip install pytest-playwright
+====================================================================================
+if __name__ == '__main__':
+    playwright
+
+run from commandline -> py app.py or python app.py
+
+pip install pytest
+type -> pytest test_sample.py
