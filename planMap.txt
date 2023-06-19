@@ -12,12 +12,24 @@ pip install playwright
 playwright --version
 playwright install
 download all the browser drivers needed for playwright -> type playwright install
-pip install pytest-playwright
+
 ====================================================================================
 if __name__ == '__main__':
-    playwright
+=============================================
 
 run from commandline -> py app.py or python app.py
+To activate venv -> .\venv\Scripts\activate
 
 pip install pytest
 type -> pytest test_sample.py
+
+pip install pytest-playwright
+=========================================================================
+pytest --headed test_sauceLab.py --browser webkit --tracing on
+playwright show-trace .\test-results\test-saucelab-py-test-title-webkit\trace.zip
+================================================================
+playwright codegen [url]
+
+playwright codegen --device="iPhone 12" https://www.saucedemo.com/
+ playwright codegen --viewport-size=800,600 --color-scheme=dark https://www.saucedemo.com/
+====================================================================

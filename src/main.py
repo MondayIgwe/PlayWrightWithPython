@@ -1,5 +1,5 @@
-from src.main_.someTest.classesTest.Dogs import Dogs as aja
-from src.main_.someTest.testScripts.app_test import func
+from src.dev.someTest.classesTest.Dogs import Dogs as aja
+from src.dev.someTest.testScripts.app_test import func
 
 # This is a sample Python script.
 # Press Shift+F10 to execute it or replace it with your code.
